@@ -1,0 +1,145 @@
+navbar-css-selectors.html
+box.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta charset="UTF-8">
+        <title>displayProperties</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">
+			@media screen and (max-width: 1000px){   /* min-width for desktop */
+         
+            .box{
+                  color: white;
+                  border-color: black;
+            }
+ 
+   }
+        	#header{
+        		position: fixed;
+        		z-index: 100;
+        		top: 0;
+        		right:0;
+        		border-radius: 0px;
+        	}
+            #container{
+
+			    padding-top:130px;
+			    margin-right: auto; 
+			    margin-left: auto; 
+			    width: 960px;
+			    border-radius: 10px;
+			    font-size: 0;
+			    position: relative;
+				}
+
+			.box{
+				padding-top: 20px;
+				box-sizing: border-box;
+				width: 100%;
+				height: 150px;
+				background-color: #81BBC9;
+				margin-bottom: 10px;
+				display: block;
+				position: relative;
+				border-radius: 10px;
+				font-size: 20px;
+				text-align: center;
+				
+				
+			}
+			#sideBar{
+				padding: 40px;
+				display: inline-block;
+				width: 49.35%;
+				height: 360px;
+				margin-right: 10px;
+				box-sizing: border-box;
+				position: relative;
+					}
+			#sideBar2{
+				padding: 40px;
+				display: inline-block;
+				width: 49.35%;
+				height: 360px;
+				margin-right: 10px;
+				box-sizing: border-box;
+				position: relative;
+			}
+			#sideBar p{
+				text-align: left;
+				color: black;
+			}
+			#content p{
+				text-align: left;
+			}
+			#content{
+				padding: 40px;
+				display: inline-block;
+				height: 360px;
+				width: 49.35%;
+				box-sizing: border-box;
+				position: relative;
+			}
+			#content2{
+				padding: 40px;
+				display: inline-block;
+				height: 360px;
+				width: 49.35%;
+				box-sizing: border-box;
+				position: relative;
+					}
+			#footer{
+				display: inline-block;
+			}
+			#linkToTop{
+				position: absolute;
+				bottom: 5px;
+				right: 5px;
+			}
+			#sideLinkToTop{
+				position: absolute;
+				bottom: 5px;
+				left: 5px;
+			}
+			p{
+				margin-bottom: 50px;
+			}
+        </style>
+    </head>
+    <body>
+     	<div id="container">
+     		<div  id="header" class="box">
+     			<h1>Header</h1>
+     		</div>
+     		<div class="box" id="sideBar">
+     			<h2>Sidebar</h2>
+     			<p >What are all those hyphens and letters on the box-sizing property? The entire CSS3 specification is not fully signed off (i.e it’s not finished), which is troublesome for the browsers trying to support the new features. The browsers, therefore, implement the features in their own way using vendor prefixes until sometime in the future when the entire 
+     			</p>
+       			<img id= sideLinkToTop src="https://drive.google.com/file/d/0B7ag5fmjYXqQcXBNR01nOGs4a3c/view?usp=drivesdk">
+     		</div>
+    		<div class="box" class ="content" id="content">
+     			<h2>Content</h2>
+      			<p>What are all those hyphens and letters on the box-sizing property? The entire CSS3 specification is not fully signed off (i.e it’s not finished), which is troublesome for the browsers trying to support the new features. The browsers, therefore, implement the features in their own way using vendor prefixes until sometime in the future when the entire 
+      			</p>
+       			<img id= linkToTop src="https://drive.google.com/file/d/0B7ag5fmjYXqQcXBNR01nOGs4a3c/view?usp=drivesdk">
+     		</div>
+     		<div class="box" id="sideBar2">
+     			<h2>Sidebar</h2>
+     			<p>What are all those hyphens and letters on the box-sizing property? The entire CSS3 specification is not fully signed off (i.e it’s not finished), which is troublesome for the browsers trying to support the new features. The browsers, therefore, implement the features in their own way using vendor prefixes until sometime in the future when the entire 
+     			</p>
+       			<img id= sideLinkToTop src="https://drive.google.com/file/d/0B7ag5fmjYXqQcXBNR01nOGs4a3c/view?usp=drivesdk">
+     		</div>
+       		<div class="box" id="content2">
+     			<h2>Content</h2>
+      			<p>What are all those hyphens and letters on the box-sizing property? The entire CSS3 specification is not fully signed off (i.e it’s not finished), which is troublesome for the browsers trying to support the new features. The browsers, therefore, implement the features in their own way using vendor prefixes until sometime in the future when the entire 
+      			</p>
+       			<img id= linkToTop src="https://drive.google.com/file/d/0B7ag5fmjYXqQcXBNR01nOGs4a3c/view?usp=drivesdk">
+     		</div>
+     		<div class="box" id="footer">
+     			<h2>Footer</h2>
+     		</div>
+     	</div>
+    </body>
+</html>
